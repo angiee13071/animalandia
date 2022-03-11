@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+*{
+    box-sizing: border-box; 
+}
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2B1;
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+}
+
+body{
+    font-size: 'Lato', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3 { 
+    font-family: 'Patua One', cursive;
+    color: var(--purple-color)
+}
+p{
+    color:var(--dark-color);    
+    text-align: justify;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    max-width: 270px;
+    width: 100%;
+}
+.b-azul{
+    border-radius: 5px;
+    border-color: var(--blue-color);
+    border-style: bold;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(--blue-color)
+}
+.b-azul:hover{
+    background-color: var(--blue-color);
+    color:white;
+}
+.b-morado{
+    border-radius: 5px;
+    border-color: var(--purple-color);
+    border-style: bold;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(--purple-color)
+
+}
+.b-morado:hover{
+    background-color: var(--purple-color);
+    color:white;
+
+}
+nav{
+    display: flex;
+    background-color: var(--purple-color)
+    ;
+}
+.nav a{
+    color:#FFFFFF;
+}
+.item{
+    color:white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.item:hover{
+    color:rgba(247, 239, 239, 0.411);
+    
+}
+#agenda{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    background-image: url(../img/fondo.png);
+}
+.cita button{
+    border-radius: 5px;
+    border-color: var(--purple-color);
+    border-style: bold;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(--purple-color)
+
+}
+
+.cita{
+    flex-basis: 70%;
+    background-image: url(../img/fondo.jpg);
+    padding: 2rem;
+}
+.cita h1 {
+    color:var(--dark-color);
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+.cita h3{
+    color:var(--dark-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    
+
+    
+}
+.promocion{
+    flex-basis: 30%;
+    background-color: var(--purple-color);
+    text-align: center;
+    padding: 2rem;
+
+}
+.promocion h1 {
+    color:var(--white-color);
+    font-size: 28px;
+    text-shadow: 2px 2px 2px  var(--dark-color);
+}
+
+.promocion img{
+    border-radius: 50%;
+    border: 10px solid var(--white-color);
+}
+.tseccion {
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px var(--dark-colors);
+}
+    
+
+#servicios{
+    display: flex;
+    justify-content:space-between;
+    ;
+
+    padding: 2em;
+
+
+}
+.servicio{
+    margin: 1em;
+    text-align: center;
+
+    
+   
+
+}
+.servicio img{
+    width: 150px;
+
+}
+
+
+.servicios h3{
+color:var(--dark-color);
+}
+
+
+
+footer{
+    background-image: url(../img/Footer.png);
+ 
+
+}
+
+.box-footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+    background-color: rgb(117,41,149,0.5);
+} 
+.foot{
+    text-align: center;
+
+}
+
+.foot h3 {
+    color: var(--white-color);
+    font-weight:500;
+}
+.foot p{
+    color:var(--white-color)
+}
+
+
+
+.cajabaner img {
+max-width: 200%;
+width: 100%;
+}
+
+
+.cajaequipo{
+display: flex;
+justify-content: space-between;
+}
+.equipo {
+    text-align: center;
+
+}
+.tituloequipo {
+    text-align: center;
+}
+
+.equipo img{
+border-radius: 50%;
+max-width: 150%;
+width: 180px;
+
+}
+.equipo h3{
+    text-align: center;
+    margin-bottom: 0%;
+
+}
+.equipo h4{
+color:black;
+margin: 3px;
+
+}
+.equipo p{
+margin: 20px;
+text-align: center;
+}
+
+.principalservicios{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-left: 1rem;
+}
+
+.cajaservicio2{
+    width: 35%;
+    
+    padding: 0.5rem;
+}
+.imgservicio img{
+    width: 10rem;
+    
+}
+
+#cajauno
+{
+background-color: #00B2B1;
+display:flex;
+width: 380px;
+border-radius: 5px;
+margin-left: 1em;
+
+}
+
+.textocontactanos{
+    background-color:var(--purple-color);
+    width: 15%;
+    color: var(--white-color);
+    text-align: center;
+    margin-left: 4rem;
+    
+}
+.textocontactanos h3{
+    color:var(--white-color)
+}
+.cajaunoimagen{
+
+width: 120px;
+
+margin-left: 1em;
+margin-top: 2.5em;
+
+}
+
+
+.cajaunoimagen img{
+    border-radius: 50%;
+    width: 100%;
+    
+}
+
+.datos{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.dato1{
+    display: flex;
+}
+.dato1 img{
+    margin-right: 0.5rem;
+}
+.datos p{
+    color: #191919;
+
+}
+
+#caja2{
+width: 380px;
+border-radius: 5px;
+margin-left: 1em;
+}
+.direc{
+background-color:var(--purple-color);
+width: 50%;
+color: var(--white-color);
+text-align: center;
+ 
+   
+}
+.mapa{
+    width: 400px;
+    height: 350px;
+    margin-bottom: 20px;
+   
+}
+
+#formulario{
+    display: flex;
+  width:400px;
+  align-items: center;
+    background-color:rgb(117,41,149,0.5);
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+  
+
+}
+
+#todaseccion{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.form-group{
+
+padding: 1rem;
+
+    
+}
+#supertip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 2rem;
+}
+
+.cajatip{
+    width: 40%;
+    
+}
+.cajatip img{
+margin: 1rem  7rem;
+}
+
+.cajatip h3{
+    text-align: center;
+}
+
