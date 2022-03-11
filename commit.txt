@@ -1,0 +1,5 @@
+commit 868498bb18992870f84feea6916a2700f082bbd3
+Author: Angiee <angie13071@gmail.com>
+Date:   Tue Feb 15 07:51:15 2022 -0500
+
+    adicionamos equipo.html, index.html y servicios html y style.css

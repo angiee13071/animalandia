@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equip="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scaler=1.0">	<title>Agregar producto</title>
+	<link rel="icon" href="img/favicon.png" >
+	<link rel="stylesheet" type="text/css" href="css/estilodashboard.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<script src="https://kit.fontawesome.com/30232a80d3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+    
+       <div class="logo">
+    
+                <img src="img/logo.jpg">
+                
+      </div>
+      <div class="sesion">
+                <img src="img/golden.jpg " class="golden">
+                <span>
+                    <a href="index.html"><strong>Bienvenido,</strong><br>usuario
+                      
+                        <img src="img/salir.svg" class="btn-salir"></a>
+                   
+                </span>
+        </div>
+     </header>
+    
+    <section id="dashboard">
+    
+            <article class="menu">
+    
+                <ul>
+                    <li><a href="usuario.html"><img src="img/usuario.svg">Usuarios</a></li>
+                    <li><a href="cliente.html"><img src="img/clientes.svg"></i>Clientes</a></li>
+                    <li><a href="productos.html"><img src="img/productos.svg" ></i>Productos</a></li>
+                    <li><a href="pedidos.html"><img src="img/pedidos.svg" ></i>Pedidos</a></li>
+                    <li><a href="reportes.html"><img src="img/estadistica.svg"></i>Reportes</a></li>
+                </ul>
+    
+            </article>
+        <article class="contenido">
+            <form action="" method="" class="form-producto">
+                <div class="form-group">
+                    <br> <label for="descripcion" class="form-label"><strong><br>Descripcion</strong></label><br><br>
+                    <input type="text" name="descripcion" id="descripcion" class="form-input" placeholder="Ingrese la descripcion del producto"><br>
+                </div>
+                <div class="form-group">
+                    <br> <label for="nombre" class="form-label"><strong>Nombre</strong></label><br><br>
+                    <input type="text" name="descripcion" id="descripcion" class="form-input" placeholder="Ingrese el nombre del producto"><br>
+                </div>
+                <div class="form-group">
+                    <br>  <label for="precio" class="form-label"><strong>Precio</strong></label><br><br>
+                    <input type="number" name="precio" id="precio" class="form-input" placeholder="Ingrese el precio del producto"><br>
+                </div>
+                <div class="form-group">
+                    <br>  <br> <label for="categoria" class="form-label"><strong>Categoria</strong></label><br><br>
+                    <br>
+                    <select name="categoria" id="categoria" class="form-select"><br>
+                        <c:forench>
+                            <option value="id">Juguetes</option>
+                        </c:forench>
+                        <c:forench>
+                            <option value="id1">Concentrado</option>
+                        </c:forench>
+                        <c:forench>
+                            <option value="id2">Medicamentos</option>
+                        </c:forench>
+                        <c:forench>
+                            <option value="id3">Accesorios</option>
+                        </c:forench>
+                    </select>
+                </div>
+                <br>
+            <div class="botonagregar">
+                <button class="btn-agregrar">Guardar</button>
+            </div>
+            </form>
+        </article>
+    
+</body>
+</html>
